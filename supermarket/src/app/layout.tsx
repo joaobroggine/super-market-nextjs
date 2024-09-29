@@ -31,7 +31,7 @@ export default function RootLayout({
       <body
       >
         <header
-        className="flex justify-center items-center pt-7 font-bold text-3xl">
+        className="flex justify-center items-center pt-7 font-bold text-3xl font-title tracking-wider">
           <h1>Market Place</h1>
         </header>
         {children}
