@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        title:["Anton, sans-serif"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
