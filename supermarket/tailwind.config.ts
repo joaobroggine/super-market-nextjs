@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       fontFamily:{
         title:["Anton, sans-serif"],
+        archivo:["Archivo, sans-serif"]
       },
       colors: {
         background: "var(--background)",
