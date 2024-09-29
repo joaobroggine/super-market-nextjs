@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Link from "next/link";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -28,11 +29,22 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/public/favicon.ico"></link>
+      </head>
       <body
       >
         <header
-        className="flex justify-center items-center pt-7 font-bold text-3xl font-title tracking-wider">
-          <h1>Market Place</h1>
+        >
+          <h1 className="flex justify-center items-center pt-7 font-bold text-3xl font-title tracking-wider">Market Place</h1>
+          <nav className="flex justify-center border p-3 m-4 border-l-transparent border-r-transparent">
+        <ul className="flex flex-row space-x-9">
+          <li><Link href="/" className="hover:underline">Home</Link></li>
+          <li><Link href="/pages" className="hover:underline">Pages</Link></li>
+          <li><Link href="/about" className="hover:underline">About us</Link></li>
+          <li><Link href="/offer" className="hover:underline">Offer of the Month</Link></li>
+        </ul>
+      </nav>
         </header>
         {children}
         <footer
