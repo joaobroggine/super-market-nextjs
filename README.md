@@ -32,7 +32,7 @@ Siga os passos abaixo para iniciar o projeto em seu ambiente local:
    Navegue até o diretório principal do projeto e utilize este comando:
 
    ```bash
-   npx create-next-app
+   npm i
    ```
 
    🐳 Isso realizará os contêineres necessários para o projeto, incluindo o servidor NextJS e o cliente React.
