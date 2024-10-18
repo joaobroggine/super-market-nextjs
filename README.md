@@ -34,6 +34,7 @@ Follow the steps below to start the project in your local environment:
    ```bash
    cd supermarket-nextjs
    npm i
+   npm run dev
    ```
 
    🐳 This will set up the necessary containers for the project, including the NextJS server and the React client.
