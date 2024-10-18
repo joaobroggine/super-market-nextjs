@@ -4,50 +4,51 @@
   <strong>🐳 ⚙️ 🌐</strong>
 </div>
 <div align="center">
-  Um projeto simples mas didático com Typescript, React e NextJS.
+  A simple but educational project using Typescript, React, and NextJS.
 </div>
 
-## 🛠️ Pré-requisitos
+## 🛠️ Prerequisites
 
-Antes de começar, certifique-se de que você tenha as seguintes ferramentas instaladas em sua máquina:
+Before you start, make sure you have the following tools installed on your machine:
 
 - NextJS
 
-## 🚀 Passo a passo interativo
+## 🚀 Interactive Step-by-Step Guide
 
-Siga os passos abaixo para iniciar o projeto em seu ambiente local:
+Follow the steps below to start the project in your local environment:
 
-1️⃣ **Clone o repositório**
+1️⃣ **Clone the repository**
 
-   Clique no botão "Clone" acima ou execute o seguinte comando no terminal:
+   Click the "Clone" button above or run the following command in your terminal:
 
    ```bash
    git clone https://github.com/joaobroggine/super-market-nextjs.git
    ```
 
-   Isso criará uma cópia local do repositório em seu ambiente.
+   This will create a local copy of the repository in your environment.
 
-2️⃣ **Inicialize os contêineres NextJS**
+2️⃣ **Initialize the NextJS containers**
 
-   Navegue até o diretório principal do projeto e utilize este comando:
+   Navigate to the main directory of the project and use this command:
 
    ```bash
+   cd supermarket-nextjs
    npm i
    ```
 
-   🐳 Isso realizará os contêineres necessários para o projeto, incluindo o servidor NextJS e o cliente React.
+   🐳 This will set up the necessary containers for the project, including the NextJS server and the React client.
 
-3️⃣ **Modifique o projeto**
+3️⃣ **Modify the project**
 
-   Agora que você tem o projeto em execução, é possível fazer modificações no código conforme necessário. Sinta-se à vontade para explorar e adaptar o projeto de acordo com suas necessidades.
+   Now that you have the project running, you can make changes to the code as needed. Feel free to explore and adapt the project according to your needs.
 
-4️⃣ **Publique suas modificações**
+4️⃣ **Publish your changes**
 
-   Se desejar publicar suas modificações em um repositório remoto no GitHub, siga estes passos:
+   If you want to publish your changes to a remote repository on GitHub, follow these steps:
 
-   1️⃣ Crie um novo repositório vazio no GitHub.<br>
-   2️⃣ No terminal, navegue até o diretório raiz do projeto.<br>
-   3️⃣ Execute os seguintes comandos:<br>
+   1️⃣ Create a new empty repository on GitHub.<br>
+   2️⃣ In the terminal, navigate to the root directory of the project.<br>
+   3️⃣ Run the following commands:<br>
 
    ```bash
    git remote set-url origin https://github.com/joaobroggine/super-market-nextjs.git
@@ -56,9 +57,8 @@ Siga os passos abaixo para iniciar o projeto em seu ambiente local:
    git push -u origin main
    ```
 
-   Isso configurará o repositório remoto e enviará suas modificações para lá.
-
+   This will configure the remote repository and push your changes there.
 
 <div align="center">
-  Espero que este guia tenha sido útil e que você aproveite ao máximo o projeto utilizando Typscript, React e NextJS. 🎉😄
+  I hope this guide has been helpful and that you make the most of the project using TypeScript, React, and NextJS. 🎉😄
 </div>
