@@ -32,7 +32,7 @@ Follow the steps below to start the project in your local environment:
    Navigate to the main directory of the project and use this command:
 
    ```bash
-   cd supermarket-nextjs
+   cd super-market-nextjs
    npm i
    npm run dev
    ```
